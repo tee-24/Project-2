@@ -45,12 +45,33 @@ Landing Page
 ![2-players](assets/docs/lh-2player.png)
 
 404 Error Page
-![404](docs/lighthouse-testing/404-lighthouse.png)
+![404](assets/docs/lh-404.png)
+
+### W3C Validator
+The W3C validator was used to validate the HTML on all pages of the website. 
+
+* [Landing Page-HTML](assets/docs/w3c-landing.png)
 
 
-### Solved Bugs
+### Known Bugs
 
-1.
+1. After clicking the play again button, the result is no longer printed to the display. However, thescores are still updating accordingly
+
+### Full Testing
+To fully test my website I performed the following testing using a number of browsers (google chrome, safari, mozilla firefox) and devices (HP laptop, iPad Pro 12.9 inch, iPhone 11 pro max).
+
+
+| Test                                         | Action                                                                                                                                                                      | Expected Result                                                                                                                                                                                                                                                   | Pass/Fail |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| Test start game button        | Click the start game button                                                                            | Displays 1 player button and 2 player button                                                                                                                                                                         | Pass      |
+| Test hover effect on buttons | Place mouse over each button                                                                                                                     | Background color should turn aqua                                                                                                                                                                                                                                      | Pass      |
+| Test instructions button                      | Click the instructions button                                                             | Opens instruction modal                                                                                                                                                                                                                                        | Pass      |
+| Test closing modal                   | Click x at the top                                                                                                                                      |Modal closes                                                                                                     | Pass      |
+| Test 1 player game   | Click on a choice                                                                                                                            | Score should increase for the winner                                                                                                                                                                                                                                     | Pass      |
+| Test 2 player game                            | Click on a choice for player 1<br>Click on a choice for player 2                                                        | Pass      |
+| Test play again button                           | Click play again button                                                       | Buttons should be re-enabled<br>Display area should be clear 
+| Test back to homepage button                           | Click back to homepage button                                                       | Landing page should open                                                                                                                                                                  | Pass      |
+  |
 
 ## Credits
 * Fonts were sourced from [Google Fonts](https://fonts.google.com/)

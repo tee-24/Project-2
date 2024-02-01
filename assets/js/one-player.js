@@ -70,8 +70,6 @@ function checkWinner() {
     }
 }
 function displayResult() {
-    console.log(result)
-    console.log(clearDisplay)
     outcome.textContent = `${result}`;
     toggle();
 }
