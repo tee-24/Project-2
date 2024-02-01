@@ -29,3 +29,16 @@ function getUserChoice() {
         })
     }
 }
+
+/** Get computer choice 
+ * and display
+ */
+function displayComputerChoice() {
+    const options = ['rock', 'paper', 'scissors'];
+
+    computerChoice = options[Math.floor(Math.random() * 3)];
+    console.log(computerChoice);
+
+    let display = document.getElementById('computer-choice');
+    display.textContent = `Computer chose: ${computerChoice}`;
+}
