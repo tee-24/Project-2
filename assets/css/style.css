@@ -123,6 +123,9 @@ button:hover {
     justify-content: space-between
   }
 
+  #error {
+    text-align: center;
+  }
   footer {
     display: flex;
     justify-content: center;
