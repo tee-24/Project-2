@@ -9,6 +9,20 @@ document.addEventListener("DOMContentLoaded", () => {
   
       options.innerHTML = playerOptions;
     });
+    // Get the modal
+  let modal = document.getElementById("help");
+  // Open modal when clicked
+  let instruction = document.getElementById('instructions');
+
+  instruction.addEventListener('click', () => {
+    modal.style.display = 'block';
+  })
+  // Get the <span> element that closes the modal
+  let span = document.getElementsByClassName("close")[0];
+
+  span.addEventListener('click', () => {
+    modal.style.display = 'none';
+  })
    
   });
   
