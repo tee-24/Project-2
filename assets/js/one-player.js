@@ -89,3 +89,14 @@ function incrementUserScore() {
 function incrementComputerScore() {
     let computerScore = parseInt(document.getElementById('computer-score').innerText);
     document.getElementById('computer-score').innerText = ++computerScore;
+}
+
+function toggle() {
+    for (let choice of choices) {
+        if (choice.disabled === true) {
+            choice.disabled = false;
+        } else {
+            choice.disabled = true;
+        }
+    }
+}
