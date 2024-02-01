@@ -91,6 +91,7 @@ function incrementComputerScore() {
     document.getElementById('computer-score').innerText = ++computerScore;
 }
 
+/** Disable the button after it has been clicked */
 function toggle() {
     for (let choice of choices) {
         if (choice.disabled === true) {
