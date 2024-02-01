@@ -32,6 +32,22 @@ To clone the repository:
 ## Testing 
 Testing was ongoing throughout the entire build. I utilized Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
+### Lighthouse Testing
+I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
+
+Landing Page
+![landing](assets/docs/lh-landing.png)
+
+1 Player Page
+![1-player](assets/docs/lh-1player.png)
+
+2 Player Page
+![2-players](assets/docs/lh-2player.png)
+
+404 Error Page
+![404](docs/lighthouse-testing/404-lighthouse.png)
+
+
 ### Solved Bugs
 
 1.
