@@ -69,3 +69,9 @@ function checkWinner() {
         outcome.style.color = 'white'
     }
 }
+function displayResult() {
+    console.log(result)
+    console.log(clearDisplay)
+    outcome.textContent = `${result}`;
+    toggle();
+}
